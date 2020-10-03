@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    align-content: center;
+    
+    background-image: linear-gradient(to right,#FDB4BF, #D0B3E1);
+    font-family: 'Fredoka One', cursive;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0 0 3px #0ccef0;
+    
+}
+ 
+
+.search{
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+   
+   
+    border:4px solid #000000;
+	border-radius:20px;
+	height: 50px;
+	width: 800px;
+}
+.gallery {
+    
+    text-align: center;
+}
+ 
+.gallery img{
+ margin: auto;
+    border:4px solid #fdfcff;
+   
+    border-radius: 25px;
+    
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+}
+
+:root{
+    --base: #ffffff;
+    --spacing: 0px;
+    --blur:10px
+}
+
